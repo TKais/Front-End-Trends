@@ -1,0 +1,6 @@
+@import '../design_system/color_palette.css';
+
+:root {
+    --page-background-color: var(--teal);
+    --page-text-color: var(--white);
+}

@@ -1,2 +1,7 @@
+@import './component_variables/page.css';
 @import './blogpost_gallery.css';
-@import './design_system/color_palette.css';
+
+html, body {
+    background-color: var(--page-background-color);
+    color: var(--page-text-color);
+}

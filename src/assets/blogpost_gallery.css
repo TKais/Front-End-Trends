@@ -1,11 +1,12 @@
+@import './component_variables/blogpost_gallery.css';
+
 .blogposts__list {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .blogposts__list-item {
-    background-color: var(--blogpost-card-color);
+    background-color: var(--blogpost-card-background-color);
     list-style-type: none;
     border: 1px solid #717171;
     width: 10rem;
