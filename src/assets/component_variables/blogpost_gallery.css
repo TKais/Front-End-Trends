@@ -1,10 +1,11 @@
 @import '../design_system/color_palette.css';
 
 .blogposts {
-    --blogpost-card-border-color: var(--white);
-    --blogpost-text-color: var(--light-grey);
-    --blogpost-card-background-color: var(--red);
-    --blogpost-card-border-color: var(--white);
+    --blogpost-card-border-color: var(--red);
+    --blogpost-text-color: var(--red);
+    --blogpost-card-background-color: var(--white);
+    --blogpost-card-border-color: var(--red);
     --blogpost-border-color: var(--white);
-    --blogpost-card-hover-color: var(--light-red);
+    --blogpost-card-hover-color: var(--red);
+    --blogpost-card-hover-text-color: var(--white);   
 }
