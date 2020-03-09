@@ -8,11 +8,17 @@
 .blogposts__list-item {
     background-color: var(--blogpost-card-background-color);
     list-style-type: none;
-    border: 1px solid #717171;
+    border: 1px solid var(--blogpost-card-border-color);
     width: 10rem;
     height: 10rem;
     position: relative;
     margin: 1rem;
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+
+.blogposts__list-item:hover {
+    background-color: var(--blogpost-card-hover-color);
 }
 
 .blogposts__list-item-link {
