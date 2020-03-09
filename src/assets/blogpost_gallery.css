@@ -3,6 +3,7 @@
 .blogposts__list {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 4.0625rem;
 }
 
 .blogposts__list-item {

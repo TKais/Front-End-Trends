@@ -7,6 +7,10 @@ html, body {
     font-family: myHelveticaLight, 'sans-serif';
 }
 
+#title, #copyright {
+    text-align: center;
+}
+
 @font-face {
     font-family: myHelveticaLight;
     src: local("Helvetica Neue Light"),
