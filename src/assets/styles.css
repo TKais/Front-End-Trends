@@ -1,5 +1,2 @@
 @import './blogpost_gallery.css';
-
-body {
-    background-color: yellow;
-}
+@import './design_system/color_palette.css';

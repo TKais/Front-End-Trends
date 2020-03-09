@@ -1,4 +1,28 @@
-#main-blogposts-container {
+.blogposts__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
+.blogposts__list-item {
+    background-color: var(--blogpost-card-color);
+    list-style-type: none;
+    border: 1px solid #717171;
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    margin: 1rem;
+}
+
+.blogposts__list-item-link {
+    text-decoration: none;
+    color: var(--blogpost-text-color);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* .blogposts__list-item-link-category {
+    
+} */
