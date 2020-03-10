@@ -3,7 +3,8 @@
 .blogposts__list {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 4.0625rem;
+    justify-content: center;
+    padding-left: 0;
 }
 
 .blogposts__list-item {
@@ -15,7 +16,7 @@
     position: relative;
     margin: 1rem;
     border-radius: 3px;
-    padding: 0.5rem;
+    padding: 0.25rem;
 }
 
 .blogposts__list-item:hover {

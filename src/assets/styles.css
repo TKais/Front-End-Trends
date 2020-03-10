@@ -1,14 +1,11 @@
 @import './component_variables/page.css';
+@import './landingpage.css';
 @import './blogpost_gallery.css';
 
 html, body {
     background-color: var(--page-background-color);
     color: var(--page-text-color);
     font-family: myHelveticaLight, 'sans-serif';
-}
-
-#title, #copyright {
-    text-align: center;
 }
 
 @font-face {

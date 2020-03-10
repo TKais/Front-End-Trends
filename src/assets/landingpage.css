@@ -1,0 +1,22 @@
+@import './component_variables/landingpage.css';
+
+#content-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#links a {
+    text-decoration: none;
+    color: var(--landingpage-nav-color);
+}
+
+#site-head, #copyright {
+    text-align: center;
+    grid-column: span 2;
+}
