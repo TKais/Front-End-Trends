@@ -1,4 +1,8 @@
 @import './component_variables/landingpage.css';
+@import './design_system/breakpoints.css';
+
+/* mobile-first approach */
+/* all styles are for sm and below */
 
 #content-container {
     display: grid;
@@ -19,4 +23,33 @@
 #site-head, #copyright {
     text-align: center;
     grid-column: span 2;
+}
+
+#copyright {
+    color: var(--landingpage-footer-color);
+}
+
+
+@media screen and (min-width: 620px) {
+    #content-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #site-head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #links {
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #links a {
+        margin: 1.5rem;
+    }
+
+    #blogposts {
+        grid-column: span 2;
+    }
 }

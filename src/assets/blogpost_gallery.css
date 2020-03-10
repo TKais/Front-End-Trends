@@ -1,6 +1,6 @@
 @import './component_variables/blogpost_gallery.css';
 
-.blogposts__list {
+#blogposts-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
