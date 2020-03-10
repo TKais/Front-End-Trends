@@ -35,3 +35,13 @@
 .blogposts__list-item-link:hover {
     color: var(--blogpost-card-hover-text-color);
 }
+
+@media screen and (min-width: 620px) {
+    #blogposts {
+        grid-column: span 2;
+    }
+
+    #blogposts-list {
+        justify-content: unset;
+    }
+}

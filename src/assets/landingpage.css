@@ -48,8 +48,4 @@
     #links a {
         margin: 1.5rem;
     }
-
-    #blogposts {
-        grid-column: span 2;
-    }
 }
