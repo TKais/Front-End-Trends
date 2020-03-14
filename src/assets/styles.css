@@ -14,3 +14,10 @@ html, body {
          local("HelveticaNeue-Light"),
          url(HelveticaNeueLight.ttf);
 }
+
+@font-face {
+    font-family: myHelveticaBold;
+    src: local("Helvetica Neue Bold"),
+         local("HelveticaNeue-Bold"),
+         url(HelveticaNeueBold.ttf);
+}

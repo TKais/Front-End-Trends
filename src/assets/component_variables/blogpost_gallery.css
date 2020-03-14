@@ -4,8 +4,9 @@
     --blogpost-card-border-color: var(--red);
     --blogpost-text-color: var(--red);
     --blogpost-card-background-color: var(--white);
-    --blogpost-card-border-color: var(--red);
+    --blogpost-card-border-color: var(--slate-grey);
     --blogpost-border-color: var(--white);
     --blogpost-card-hover-color: var(--red);
-    --blogpost-card-hover-text-color: var(--white);   
+    --blogpost-card-hover-text-color: var(--white);
+    --blogpost-card-category-background-color: var(--slate-grey);
 }
