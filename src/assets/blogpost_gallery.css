@@ -11,8 +11,8 @@
     background-color: var(--blogpost-card-background-color);
     list-style-type: none;
     border: 1px solid var(--blogpost-card-border-color);
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     position: relative;
     margin: 1rem;
     border-radius: 3px;
@@ -36,12 +36,18 @@
     color: var(--blogpost-card-hover-text-color);
 }
 
-@media screen and (min-width: 622px) {
+@media screen and (min-width: 786px) {
     #blogposts {
         grid-column: span 2;
     }
 
     #blogposts-list {
-        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 862px) {
+    #blogposts-list {
+        justify-content: unset;
     }
 }
