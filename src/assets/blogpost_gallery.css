@@ -1,5 +1,9 @@
 @import './component_variables/blogpost_gallery.css';
 
+#blogposts {
+    margin-top: 4rem;
+}
+
 #blogposts-list {
     display: flex;
     flex-wrap: wrap;
