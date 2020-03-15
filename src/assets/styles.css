@@ -1,6 +1,7 @@
 @import './component_variables/page.css';
 @import './landingpage.css';
 @import './blogpost_gallery.css';
+@import './about.css';
 
 html, body {
     background-color: var(--page-background-color);

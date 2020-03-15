@@ -1,0 +1,37 @@
+@import './component_variables/about.css';
+
+body {
+    margin: 0 5rem;
+}
+
+.about__title {
+    text-align: center;
+}
+
+.about__section-title {
+    display: inline;
+    border-bottom: 1px dashed var(--about-title-border-bottom);
+}
+
+#about {
+    margin-top: 6rem;
+}
+
+#about__title-header {
+    color: var(--about-title-color);
+}
+
+section {
+    margin: 4rem;
+}
+
+#about__image {
+    display: flex;
+    justify-content: center;
+}
+
+.about__image-responsive {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}

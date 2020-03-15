@@ -1,0 +1,6 @@
+@import '../design_system/color_palette.css';
+
+:root {
+    --about-title-color: var(--red);
+    --about-title-border-bottom: var(--white);
+}
