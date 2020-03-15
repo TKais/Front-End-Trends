@@ -8,4 +8,5 @@ html, body {
     background-color: var(--page-background-color);
     color: var(--page-text-color);
     font-family: myHelveticaLight, 'sans-serif';
+    height: 100%;
 }

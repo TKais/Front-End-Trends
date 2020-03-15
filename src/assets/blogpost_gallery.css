@@ -43,7 +43,8 @@
     color: var(--blogpost-card-hover-text-color);
 }
 
-.blogposts__list-item-link:hover .blogposts__list-item-link-description-subtitle {
+.blogposts__list-item-link:hover .blogposts__list-item-link-description-subtitle,
+.blogposts__list-item-link:hover .blogposts__list-item-link-description-author {
     color: var(--blogpost-card-hover-text-color);
 }
 
@@ -63,6 +64,7 @@
     font-size: 0.75rem;
     position: absolute;
     bottom: 0.375rem;
+    color: var(--blogpost-author-text-color);
 }
 
 @media screen and (min-width: 786px) {

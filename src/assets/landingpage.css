@@ -38,8 +38,7 @@
 #copyright-landingpage {
     color: var(--landingpage-footer-color);
     bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
 }
 
 #title-style {
