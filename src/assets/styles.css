@@ -9,4 +9,5 @@ html, body {
     color: var(--page-text-color);
     font-family: myHelveticaLight, 'sans-serif';
     height: 100%;
+    margin: 0;
 }
