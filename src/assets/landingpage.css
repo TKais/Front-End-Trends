@@ -9,6 +9,11 @@
     grid-template-columns: 1fr;
 }
 
+#title a {
+    text-decoration: none;
+    color: var(--landingpage-title-color);
+}
+
 #links {
     display: flex;
     justify-content: space-evenly;

@@ -1,3 +1,21 @@
-:root {
-    
+@font-face {
+    font-family: myHelveticaLight;
+    src: local("Helvetica Neue Light"),
+         local("HelveticaNeue-Light"),
+         url(HelveticaNeueLight.ttf);
+}
+
+@font-face {
+    font-family: myHelveticaBold;
+    src: local("Helvetica Neue Bold"),
+         local("HelveticaNeue-Bold"),
+         url(HelveticaNeueBold.ttf);
+}
+
+#helvetica-light {
+    font-family: myHelveticaLight;
+}
+
+#helvetica-bold {
+    font-family: myHelveticaBold;
 }

@@ -2,23 +2,10 @@
 @import './landingpage.css';
 @import './blogpost_gallery.css';
 @import './about.css';
+@import './design_system/typography.css';
 
 html, body {
     background-color: var(--page-background-color);
     color: var(--page-text-color);
     font-family: myHelveticaLight, 'sans-serif';
-}
-
-@font-face {
-    font-family: myHelveticaLight;
-    src: local("Helvetica Neue Light"),
-         local("HelveticaNeue-Light"),
-         url(HelveticaNeueLight.ttf);
-}
-
-@font-face {
-    font-family: myHelveticaBold;
-    src: local("Helvetica Neue Bold"),
-         local("HelveticaNeue-Bold"),
-         url(HelveticaNeueBold.ttf);
 }

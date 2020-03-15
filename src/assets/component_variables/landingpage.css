@@ -3,4 +3,5 @@
 :root {
     --landingpage-nav-color: var(--light-grey);
     --landingpage-footer-color: var(--light-grey);
+    --landingpage-title-color: var(--white);
 }

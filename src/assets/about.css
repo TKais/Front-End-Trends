@@ -1,11 +1,12 @@
 @import './component_variables/about.css';
 
-body {
+.about__title, .about__image, .about {
     margin: 0 5rem;
 }
 
 .about__title {
     text-align: center;
+    margin-top: 5rem;
 }
 
 .about__section-title {
