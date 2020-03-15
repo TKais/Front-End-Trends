@@ -32,6 +32,18 @@
 #copyright {
     color: var(--landingpage-footer-color);
     bottom: 5px;
+    left: 50%;
+}
+
+#copyright-landingpage {
+    color: var(--landingpage-footer-color);
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#title-style {
+    color: var(--landingpage-title-style-color);
 }
 
 
