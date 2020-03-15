@@ -31,10 +31,7 @@
 
 #copyright {
     color: var(--landingpage-footer-color);
-    position: fixed;
     bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 
