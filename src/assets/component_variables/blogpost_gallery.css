@@ -9,4 +9,5 @@
     --blogpost-card-hover-color: var(--red);
     --blogpost-card-hover-text-color: var(--white);
     --blogpost-card-category-background-color: var(--slate-grey);
+    --blogpost-subtitle-text-color: var(--slate-grey);
 }

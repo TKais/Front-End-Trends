@@ -35,7 +35,15 @@
     position: absolute;
 }
 
+.blogposts__list-item-link-description-subtitle {
+    color: var(--blogpost-subtitle-text-color);
+}
+
 .blogposts__list-item-link:hover {
+    color: var(--blogpost-card-hover-text-color);
+}
+
+.blogposts__list-item-link:hover .blogposts__list-item-link-description-subtitle {
     color: var(--blogpost-card-hover-text-color);
 }
 
@@ -51,7 +59,7 @@
     padding: 0.25rem;
 }
 
-.author {
+.blogposts__list-item-link-description-author {
     font-size: 0.75rem;
     position: absolute;
     bottom: 0.375rem;
