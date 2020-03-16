@@ -6,3 +6,54 @@
     --slate-grey: #708090;
     --black: #000000;
   }
+
+  .teal {
+    background-color: var(--teal);
+  }
+
+  .white {
+    background-color: var(--white);
+  }
+
+  .light-grey {
+    background-color: var(--light-grey);
+  }
+
+  .red {
+    background-color: var(--red);
+  }
+
+  .slate-grey {
+    background-color: var(--slate-grey);
+  }
+
+  .black {
+    background-color: var(--black);
+  }
+
+  .teal, .white, .light-grey, .red, .slate-grey, .black {
+    border: 1px solid var(--white);
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--white);
+    line-height: 9rem;
+    text-align: center;
+  }
+
+  .white, .light-grey {
+    color: var(--black);
+  }
+
+  .teal:focus,
+  .white:focus,
+  .light-grey:focus,
+  .red:focus,
+  .slate-grey:focus,
+  .black:focus {
+    outline: 1px dashed var(--white);
+  }

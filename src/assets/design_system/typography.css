@@ -12,10 +12,10 @@
          url(HelveticaNeueBold.ttf);
 }
 
-#helvetica-light {
+.helvetica-light {
     font-family: myHelveticaLight;
 }
 
-#helvetica-bold {
+.helvetica-bold {
     font-family: myHelveticaBold;
 }
