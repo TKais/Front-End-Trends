@@ -7,8 +7,11 @@
     grid-template-rows: 5rem 1fr 1.875rem;
 }
 
-#blogpost-head, #blogpost-copyright {
+#blogpost-head {
     grid-area: header;
+}
+
+#blogpost-head, #blogpost-copyright {
     grid-column: span 2;
     text-align: center;
 }
