@@ -3,6 +3,7 @@
 @import './blogpost_gallery.css';
 @import './about.css';
 @import './design_system/typography.css';
+@import './blogpost.css';
 
 html, body {
     background-color: var(--page-background-color);
