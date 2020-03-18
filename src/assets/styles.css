@@ -4,6 +4,7 @@
 @import './about.css';
 @import './design_system/typography.css';
 @import './blogpost.css';
+@import './designsystem.css';
 
 html, body {
     background-color: var(--page-background-color);
