@@ -27,6 +27,10 @@ section {
     justify-content: center;
 }
 
+#about__image figcaption {
+    text-align: center;
+}
+
 .about__image-responsive {
     height: auto;
     width: 100%;
