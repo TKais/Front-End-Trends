@@ -9,6 +9,6 @@
     padding-left: 1.5rem;
 }
 
-#color-palette ul {
-    padding-left: 0;
+#color-palette {
+    margin: 1rem;
 }
