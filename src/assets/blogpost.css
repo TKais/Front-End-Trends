@@ -25,6 +25,15 @@
     grid-area: footer;
 }
 
+#social-media {
+    display: flex;
+    justify-content: center;
+}
+
+#social-media a {
+    margin: 1.5rem;
+}
+
 @media screen and (min-width: 786px) {
     #blogpost-container {
         grid-template-columns: 1fr 1fr;
