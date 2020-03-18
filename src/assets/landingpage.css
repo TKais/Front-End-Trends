@@ -1,4 +1,5 @@
 @import './component_variables/landingpage.css';
+@import './utils.css';
 
 /* mobile-first approach */
 /* all styles are for sm and below */
@@ -27,7 +28,7 @@
 }
 
 #links a:focus, .blogposts__list-item-link:focus, #title a:focus {
-    outline: 1px dashed var(--landingpage-focus-color);
+    outline: var(--focus-outline);
 }
 
 #site-head, #copyright {

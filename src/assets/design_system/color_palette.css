@@ -1,3 +1,5 @@
+@import '../utils.css';
+
 :root {
     --teal: #6CB5BE;
     --white: #FFFFFF;
@@ -55,5 +57,5 @@
   .red:focus,
   .slate-grey:focus,
   .black:focus {
-    outline: 1px dashed var(--white);
+    outline: var(--focus-outline);
   }
