@@ -26,6 +26,10 @@
     color: var(--landingpage-nav-color);
 }
 
+#links a:focus, .blogposts__list-item-link:focus, #title a:focus {
+    outline: 1px dashed var(--landingpage-focus-color);
+}
+
 #site-head, #copyright {
     text-align: center;
     grid-column: span 2;
